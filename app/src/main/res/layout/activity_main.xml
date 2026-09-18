@@ -86,5 +86,24 @@
         android:layout_weight="1"
         android:gravity="center"
         android:orientation="horizontal"
-        android:padding="18dp" />
+        android:padding="18dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/change_button"
+            style="@style/LabButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="18dp"
+            android:layout_weight="1"
+            android:text="@string/change" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel_button"
+            style="@style/LabButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="18dp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
 </LinearLayout>
